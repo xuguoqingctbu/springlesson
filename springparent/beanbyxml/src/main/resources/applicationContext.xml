@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean class="com.entity.Car" id="car1">
+        <property name="brand" value="丰田"/>
+        <property name="color" value="白色"/>
+    </bean>
+
+    <bean class="com.entity.Car" id="car2">
+        <property name="brand" value="大众"/>
+        <property name="color" value="黑色"/>
+    </bean>
+    <!--注意：id和name都不能重复，但是name可以起多个，id必须是唯一的-->
+    <bean class="com.entity.Person" name="p1,person">
+        <property name="name" value="zhangsan"/>
+        <property name="gender" value="男"/>
+        <property name="age" value="20"/>
+        <property name="car" ref="car1"/>
+    </bean>
+</beans>

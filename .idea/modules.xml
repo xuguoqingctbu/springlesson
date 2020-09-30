@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springparent/beanbyanacation/beanbyanacation.iml" filepath="$PROJECT_DIR$/springparent/beanbyanacation/beanbyanacation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springparent/beanbyxml/beanbyxml.iml" filepath="$PROJECT_DIR$/springparent/beanbyxml/beanbyxml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springparent/firstbyanacation/firstbyanacation.iml" filepath="$PROJECT_DIR$/springparent/firstbyanacation/firstbyanacation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springparent/firstbyxml/firstbyxml.iml" filepath="$PROJECT_DIR$/springparent/firstbyxml/firstbyxml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springparent/icodemo/icodemo.iml" filepath="$PROJECT_DIR$/springparent/icodemo/icodemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springparent/springparent.iml" filepath="$PROJECT_DIR$/springparent/springparent.iml" />
+    </modules>
+  </component>
+</project>
