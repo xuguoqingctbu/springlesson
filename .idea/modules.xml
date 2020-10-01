@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springparent/beanbyanacation/beanbyanacation.iml" filepath="$PROJECT_DIR$/springparent/beanbyanacation/beanbyanacation.iml" />
       <module fileurl="file://$PROJECT_DIR$/springparent/beanbyxml/beanbyxml.iml" filepath="$PROJECT_DIR$/springparent/beanbyxml/beanbyxml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springparent/collection/collection.iml" filepath="$PROJECT_DIR$/springparent/collection/collection.iml" />
       <module fileurl="file://$PROJECT_DIR$/springparent/firstbyanacation/firstbyanacation.iml" filepath="$PROJECT_DIR$/springparent/firstbyanacation/firstbyanacation.iml" />
       <module fileurl="file://$PROJECT_DIR$/springparent/firstbyxml/firstbyxml.iml" filepath="$PROJECT_DIR$/springparent/firstbyxml/firstbyxml.iml" />
       <module fileurl="file://$PROJECT_DIR$/springparent/icodemo/icodemo.iml" filepath="$PROJECT_DIR$/springparent/icodemo/icodemo.iml" />

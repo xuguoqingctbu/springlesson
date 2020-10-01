@@ -6,6 +6,9 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 import sun.font.TrueTypeFont;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 //注意，这个组件默认是类名，字母首字母小写，也就是car
 @Component("car1")
 @Lazy(true)
@@ -17,6 +20,18 @@ public class Car {
 
     public Car() {
 
+    }
+
+    //bean的初始化方法
+    @PostConstruct
+    public void initPerson(){
+        System.out.println("initPerson()...");
+    }
+
+    //bean的销毁方法
+    @PreDestroy
+    public void destroyPerson(){
+        System.out.println("destroyPerson()...");
     }
 
     public Car(String brand, String color) {

@@ -13,6 +13,7 @@
         <module>icodemo</module>
         <module>beanbyxml</module>
         <module>beanbyanacation</module>
+        <module>collection</module>
     </modules>
 
 

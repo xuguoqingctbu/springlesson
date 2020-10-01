@@ -13,7 +13,6 @@ import javax.annotation.Resource;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Person {
-
     private String name;
     private String gender;
     private int age;

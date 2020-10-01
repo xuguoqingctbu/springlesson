@@ -6,16 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="beanbyxml" />
-        <module name="firstbyxml" />
-        <module name="beanbyanacation" />
         <module name="firstbyanacation" />
+        <module name="firstbyxml" />
         <module name="icodemo" />
+        <module name="beanbyanacation" />
+        <module name="collection" />
+        <module name="beanbyxml" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
       <module name="beanbyanacation" target="8" />
       <module name="beanbyxml" target="8" />
+      <module name="collection" target="8" />
       <module name="firstbyanacation" target="8" />
       <module name="firstbyxml" target="8" />
       <module name="icodemo" target="8" />

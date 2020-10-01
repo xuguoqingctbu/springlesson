@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean class="com.entity.Car" id="car1">
+        <property name="brand" value="奔驰"/>
+        <property name="color" value="black"/>
+    </bean>
+
+    <bean class="com.entity.Car" id="car2">
+        <property name="brand" value="大汽"/>
+        <property name="color" value="red"/>
+    </bean>
+
+    <bean class="com.entity.Car" id="car3">
+        <property name="brand" value="宝马"/>
+        <property name="color" value="white"/>
+    </bean>
+
+    <bean class="com.entity.Person" name="p1,person" scope="prototype">
+        <property name="name" value="zhangsan"/>
+        <property name="gender" value="男"/>
+        <property name="age" value="20"/>
+        <property name="cars">
+            <list>
+                <ref bean="car1"></ref>
+                <ref bean="car2"></ref>
+                <ref bean="car3"></ref>
+            </list>
+        </property>
+
+        <property name="address">
+            <set>
+                <value>西安市大学东路</value>
+                <value>西安市雁塔路</value>
+                <value>西安市咸宁西路</value>
+            </set>
+        </property>
+
+        <property name="account">
+            <map>
+                <entry key="10000000" value="建设银行"/>
+                <entry key="10000001" value="工商银行"/>
+                <entry key="10000002" value="农业银行"/>
+                <entry key="10000003" value="中国银行"/>
+            </map>
+        </property>
+
+        <property name="phoneZone">
+            <props>
+                <prop key="010">北京</prop>
+                <prop key="020">广州</prop>
+                <prop key="021">上海</prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean class="com.entity.Person" name="p2,person2" scope="prototype">
+        <property name="name" value="李四"/>
+        <property name="gender" value="男"/>
+        <property name="age" value="20"/>
+        <property name="cars">
+            <list>
+                <ref bean="car1"></ref>
+                <ref bean="car2"></ref>
+                <ref bean="car3"></ref>
+            </list>
+        </property>
+
+        <property name="address">
+            <set>
+                <value>西安市大学东路</value>
+                <value>西安市雁塔路</value>
+                <value>西安市咸宁西路</value>
+            </set>
+        </property>
+
+        <property name="account">
+            <map>
+                <entry key="10000000" value="建设银行"/>
+                <entry key="10000001" value="工商银行"/>
+                <entry key="10000002" value="农业银行"/>
+                <entry key="10000003" value="中国银行"/>
+            </map>
+        </property>
+
+        <property name="phoneZone">
+            <props>
+                <prop key="010">北京</prop>
+                <prop key="020">广州</prop>
+                <prop key="021">上海</prop>
+            </props>
+        </property>
+    </bean>
+</beans>
